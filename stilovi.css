@@ -1,0 +1,104 @@
+body, #zag {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: aliceblue;
+    background-image: url(slike/poz2.jpg);
+    background-size: cover;
+    background-position-y: -160px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+h1 {
+    margin-top: 21%;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+    
+}
+ul {list-style-type: none;
+    
+
+}
+.lista_disc {
+    list-style-type:circle;
+}
+div {
+    text-align: left;
+    margin: auto;
+    width:fit-content;
+}
+
+.meni li {
+    
+    
+    box-shadow: 2px 2px 5px whitesmoke;
+    margin:5px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    display: inline;
+    border-top: none;
+    border-left: none;
+    
+    
+}
+.meni li:hover{background-color: rgb(0, 0, 0);
+    opacity:15% ;}
+.meni {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+.meni a{
+    display: inline-block;
+    width:200px;
+    text-decoration: none;
+    color: whitesmoke;
+   }
+a {
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+.tekst_okvir {
+    border: 1px solid whitesmoke;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px whitesmoke;
+    border-top: none;
+    border-left: none;
+    margin-top: 10%;
+}
+#zag {
+    width: 100%;
+    margin: 0px;
+}
+.glavni {
+    background-color: black;
+    width: auto;
+    margin: 10px;
+    text-align: justify;
+}
+.levo {
+    float: left;
+}
+img {width: 250px;
+border: 2px solid whitesmoke;
+}
+.slikaveca{
+    width: 400px;
+    margin: auto;
+}
+figcaption {
+    text-align: center;
+    
+}
+figure {
+    text-align: center;
+}
